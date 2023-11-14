@@ -1,8 +1,4 @@
-let laoda = "牢大"
-alert("确定复活牢大!");
-document.querySelector("html").addEventListener("click", () => {
-    alert("别戳我，我怕疼。");
-  });
+
   let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
@@ -14,3 +10,8 @@ myImage.onclick = function () {
   }  
   
 }
+let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
+myButton.onclick = function () {
+    setUserName();
+  };
