@@ -4,7 +4,7 @@
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
   if (mySrc === "images/jyu.jpg") {
-    myImage.setAttribute("src", "images/112.jpg");
+    myImage.setAttribute("src", "images/112.gif");
   } else {
     myImage.setAttribute("src", "images/113.jpg");
   }  
